@@ -1,0 +1,540 @@
+fileFormatVersion: 2
+guid: 397ef3a37789a7c49901662aaf20e29a
+timeCreated: 1451282118
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Bone
+    100002: Bone.001
+    100004: Bone.001_end
+    100006: Camera
+    100008: dummyHat
+    100010: dummyHat_armature
+    100012: //RootNode
+    100014: Target1
+    100016: Target2
+    100018: Target3
+    100020: TargetBack
+    100022: TargetLeft
+    100024: TargetRight
+    400000: Bone
+    400002: Bone.001
+    400004: Bone.001_end
+    400006: Camera
+    400008: dummyHat
+    400010: dummyHat_armature
+    400012: //RootNode
+    400014: Target1
+    400016: Target2
+    400018: Target3
+    400020: TargetBack
+    400022: TargetLeft
+    400024: TargetRight
+    4300000: dummyHat
+    7400000: dummyHat_armature|DummyHat_fly2
+    7400002: dummyHat_armature|DummyHat_fly3.001
+    7400004: dummyHat_armature|DummyHat_fly_back
+    7400006: dummyHat_armature|DummyHat_fly_left
+    7400008: dummyHat_armature|DummyHat_fly_right
+    7400010: dummyHat_armature|DummyHat_pickedUp_C
+    7400012: dummyHat_armature|fly1
+    7400014: zeroPos
+    9500000: //RootNode
+    13700000: dummyHat
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: dummyHat_armature|DummyHat_fly2
+      takeName: dummyHat_armature|DummyHat_fly2
+      firstFrame: 0
+      lastFrame: 56
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dummyHat_armature|DummyHat_fly3.001
+      takeName: dummyHat_armature|DummyHat_fly3.001
+      firstFrame: 0
+      lastFrame: 99
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dummyHat_armature|DummyHat_fly_back
+      takeName: dummyHat_armature|DummyHat_fly_back
+      firstFrame: 0
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dummyHat_armature|DummyHat_fly_left
+      takeName: dummyHat_armature|DummyHat_fly_left
+      firstFrame: 0
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dummyHat_armature|DummyHat_fly_right
+      takeName: dummyHat_armature|DummyHat_fly_right
+      firstFrame: 0
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dummyHat_armature|DummyHat_pickedUp_C
+      takeName: dummyHat_armature|DummyHat_pickedUp_C
+      firstFrame: 0
+      lastFrame: 38
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: dummyHat_armature|fly1
+      takeName: dummyHat_armature|fly1
+      firstFrame: 0
+      lastFrame: 75
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: zeroPos
+      takeName: dummyHat_armature|zeroPos
+      firstFrame: 0
+      lastFrame: 1
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: dummyHat
+        weight: 1
+      - path: dummyHat_armature
+        weight: 1
+      - path: dummyHat_armature/Bone
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001
+        weight: 1
+      - path: dummyHat_armature/Bone/Bone.001/Bone.001_end
+        weight: 1
+      - path: Target1
+        weight: 1
+      - path: Target2
+        weight: 1
+      - path: Target3
+        weight: 1
+      - path: TargetBack
+        weight: 1
+      - path: TargetLeft
+        weight: 1
+      - path: TargetRight
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

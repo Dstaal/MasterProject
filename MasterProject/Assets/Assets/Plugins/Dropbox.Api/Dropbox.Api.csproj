@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{D7B167CE-3AF8-478E-82F2-684D38F1DF98}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dropbox.Api</RootNamespace>
+    <AssemblyName>Dropbox.Api</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Profile344</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Debug\Dropbox.Api.XML</DocumentationFile>
+    <RunCodeAnalysis>true</RunCodeAnalysis>
+    <NoWarn>419</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <TreatWarningsAsErrors>false</TreatWarningsAsErrors>
+    <DocumentationFile>bin\Release\Dropbox.Api.XML</DocumentationFile>
+    <NoWarn>419</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net40+sl4+win8+wp71+wpa81\Microsoft.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Threading.Tasks.Extensions">
+      <HintPath>..\packages\Microsoft.Bcl.Async.1.0.168\lib\portable-net40+sl4+win8+wp71+wpa81\Microsoft.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.IO">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\portable-net40+sl5+win8+wp8+wpa81\System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives">
+      <HintPath>..\packages\Microsoft.Net.Http.2.2.29\lib\portable-net40+sl4+win8+wp71+wpa81\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\portable-net40+sl5+win8+wp8+wpa81\System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>..\packages\Microsoft.Bcl.1.1.10\lib\portable-net40+sl5+win8+wp8+wpa81\System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\packages\Newtonsoft.Json.7.0.1\lib\portable-net40+sl5+wp80+win8+wpa81\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Babel\Decoder.cs" />
+    <Compile Include="Babel\Empty.cs" />
+    <Compile Include="Babel\Encoder.cs" />
+    <Compile Include="Babel\IEncoder.cs" />
+    <Compile Include="Babel\IDecoder.cs" />
+    <Compile Include="Babel\IJsonReader.cs" />
+    <Compile Include="Babel\IJsonWriter.cs" />
+    <Compile Include="Babel\ITransport.cs" />
+    <Compile Include="Babel\JsonReader.cs" />
+    <Compile Include="Babel\JsonWriter.cs" />
+    <Compile Include="ApiException.cs" />
+    <Compile Include="Babel\Util.cs" />
+    <Compile Include="DropboxCertHelper.cs" />
+    <Compile Include="DropboxClient.common.cs" />
+    <Compile Include="DropboxOauth2Helper.cs" />
+    <Compile Include="DropboxRequestHandler.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Async\LaunchEmptyResult.cs" />
+    <Compile Include="Async\LaunchResultBase.cs" />
+    <Compile Include="Async\PollArg.cs" />
+    <Compile Include="Async\PollEmptyResult.cs" />
+    <Compile Include="Async\PollError.cs" />
+    <Compile Include="Async\PollResultBase.cs" />
+    <Compile Include="DropboxClient.cs" />
+    <Compile Include="DropboxTeamClient.cs" />
+    <Compile Include="Files\CommitInfo.cs" />
+    <Compile Include="Files\CreateFolderArg.cs" />
+    <Compile Include="Files\CreateFolderError.cs" />
+    <Compile Include="Files\DeleteArg.cs" />
+    <Compile Include="Files\DeleteError.cs" />
+    <Compile Include="Files\DeletedMetadata.cs" />
+    <Compile Include="Files\Dimensions.cs" />
+    <Compile Include="Files\DownloadArg.cs" />
+    <Compile Include="Files\DownloadError.cs" />
+    <Compile Include="Files\FileMetadata.cs" />
+    <Compile Include="Files\FilesRoutes.cs" />
+    <Compile Include="Files\FolderMetadata.cs" />
+    <Compile Include="Files\GetMetadataArg.cs" />
+    <Compile Include="Files\GetMetadataError.cs" />
+    <Compile Include="Files\GpsCoordinates.cs" />
+    <Compile Include="Files\ListFolderArg.cs" />
+    <Compile Include="Files\ListFolderContinueArg.cs" />
+    <Compile Include="Files\ListFolderContinueError.cs" />
+    <Compile Include="Files\ListFolderError.cs" />
+    <Compile Include="Files\ListFolderGetLatestCursorResult.cs" />
+    <Compile Include="Files\ListFolderLongpollArg.cs" />
+    <Compile Include="Files\ListFolderLongpollError.cs" />
+    <Compile Include="Files\ListFolderLongpollResult.cs" />
+    <Compile Include="Files\ListFolderResult.cs" />
+    <Compile Include="Files\ListRevisionsArg.cs" />
+    <Compile Include="Files\ListRevisionsError.cs" />
+    <Compile Include="Files\ListRevisionsResult.cs" />
+    <Compile Include="Files\LookupError.cs" />
+    <Compile Include="Files\MediaInfo.cs" />
+    <Compile Include="Files\MediaMetadata.cs" />
+    <Compile Include="Files\Metadata.cs" />
+    <Compile Include="Files\PhotoMetadata.cs" />
+    <Compile Include="Files\PreviewArg.cs" />
+    <Compile Include="Files\PreviewError.cs" />
+    <Compile Include="Files\RelocationArg.cs" />
+    <Compile Include="Files\RelocationError.cs" />
+    <Compile Include="Files\RestoreArg.cs" />
+    <Compile Include="Files\RestoreError.cs" />
+    <Compile Include="Files\SearchArg.cs" />
+    <Compile Include="Files\SearchError.cs" />
+    <Compile Include="Files\SearchMatch.cs" />
+    <Compile Include="Files\SearchMatchType.cs" />
+    <Compile Include="Files\SearchMode.cs" />
+    <Compile Include="Files\SearchResult.cs" />
+    <Compile Include="Files\ThumbnailArg.cs" />
+    <Compile Include="Files\ThumbnailError.cs" />
+    <Compile Include="Files\ThumbnailFormat.cs" />
+    <Compile Include="Files\ThumbnailSize.cs" />
+    <Compile Include="Files\UploadError.cs" />
+    <Compile Include="Files\UploadSessionCursor.cs" />
+    <Compile Include="Files\UploadSessionFinishArg.cs" />
+    <Compile Include="Files\UploadSessionFinishError.cs" />
+    <Compile Include="Files\UploadSessionLookupError.cs" />
+    <Compile Include="Files\UploadSessionOffsetError.cs" />
+    <Compile Include="Files\UploadSessionStartResult.cs" />
+    <Compile Include="Files\UploadWriteFailed.cs" />
+    <Compile Include="Files\VideoMetadata.cs" />
+    <Compile Include="Files\WriteConflictError.cs" />
+    <Compile Include="Files\WriteError.cs" />
+    <Compile Include="Files\WriteMode.cs" />
+    <Compile Include="Sharing\AccessLevel.cs" />
+    <Compile Include="Sharing\AclUpdatePolicy.cs" />
+    <Compile Include="Sharing\AddFolderMemberArg.cs" />
+    <Compile Include="Sharing\AddFolderMemberError.cs" />
+    <Compile Include="Sharing\AddMember.cs" />
+    <Compile Include="Sharing\AddMemberSelectorError.cs" />
+    <Compile Include="Sharing\CollectionLinkMetadata.cs" />
+    <Compile Include="Sharing\CreateSharedLinkArg.cs" />
+    <Compile Include="Sharing\CreateSharedLinkError.cs" />
+    <Compile Include="Sharing\FolderPolicy.cs" />
+    <Compile Include="Sharing\GetMetadataArgs.cs" />
+    <Compile Include="Sharing\GetSharedLinksArg.cs" />
+    <Compile Include="Sharing\GetSharedLinksError.cs" />
+    <Compile Include="Sharing\GetSharedLinksResult.cs" />
+    <Compile Include="Sharing\GroupInfo.cs" />
+    <Compile Include="Sharing\GroupMembershipInfo.cs" />
+    <Compile Include="Sharing\InviteeInfo.cs" />
+    <Compile Include="Sharing\InviteeMembershipInfo.cs" />
+    <Compile Include="Sharing\JobError.cs" />
+    <Compile Include="Sharing\JobStatus.cs" />
+    <Compile Include="Sharing\LinkMetadata.cs" />
+    <Compile Include="Sharing\ListFolderMembersArgs.cs" />
+    <Compile Include="Sharing\ListFolderMembersContinueArg.cs" />
+    <Compile Include="Sharing\ListFolderMembersContinueError.cs" />
+    <Compile Include="Sharing\ListFoldersContinueArg.cs" />
+    <Compile Include="Sharing\ListFoldersContinueError.cs" />
+    <Compile Include="Sharing\ListFoldersResult.cs" />
+    <Compile Include="Sharing\MemberPolicy.cs" />
+    <Compile Include="Sharing\MemberSelector.cs" />
+    <Compile Include="Sharing\MembershipInfo.cs" />
+    <Compile Include="Sharing\MountFolderArg.cs" />
+    <Compile Include="Sharing\MountFolderError.cs" />
+    <Compile Include="Sharing\PathLinkMetadata.cs" />
+    <Compile Include="Sharing\PendingUploadMode.cs" />
+    <Compile Include="Sharing\RelinquishFolderMembershipArg.cs" />
+    <Compile Include="Sharing\RelinquishFolderMembershipError.cs" />
+    <Compile Include="Sharing\RemoveFolderMemberArg.cs" />
+    <Compile Include="Sharing\RemoveFolderMemberError.cs" />
+    <Compile Include="Sharing\RevokeSharedLinkArg.cs" />
+    <Compile Include="Sharing\RevokeSharedLinkError.cs" />
+    <Compile Include="Sharing\ShareFolderArg.cs" />
+    <Compile Include="Sharing\ShareFolderError.cs" />
+    <Compile Include="Sharing\ShareFolderJobStatus.cs" />
+    <Compile Include="Sharing\ShareFolderLaunch.cs" />
+    <Compile Include="Sharing\SharePathError.cs" />
+    <Compile Include="Sharing\SharedFolderAccessError.cs" />
+    <Compile Include="Sharing\SharedFolderMemberError.cs" />
+    <Compile Include="Sharing\SharedFolderMembers.cs" />
+    <Compile Include="Sharing\SharedFolderMetadata.cs" />
+    <Compile Include="Sharing\SharedLinkPolicy.cs" />
+    <Compile Include="Sharing\SharingRoutes.cs" />
+    <Compile Include="Sharing\TransferFolderArg.cs" />
+    <Compile Include="Sharing\TransferFolderError.cs" />
+    <Compile Include="Sharing\UnmountFolderArg.cs" />
+    <Compile Include="Sharing\UnmountFolderError.cs" />
+    <Compile Include="Sharing\UnshareFolderArg.cs" />
+    <Compile Include="Sharing\UnshareFolderError.cs" />
+    <Compile Include="Sharing\UpdateFolderMemberArg.cs" />
+    <Compile Include="Sharing\UpdateFolderMemberError.cs" />
+    <Compile Include="Sharing\UpdateFolderPolicyArg.cs" />
+    <Compile Include="Sharing\UpdateFolderPolicyError.cs" />
+    <Compile Include="Sharing\UserInfo.cs" />
+    <Compile Include="Sharing\UserMembershipInfo.cs" />
+    <Compile Include="Sharing\Visibility.cs" />
+    <Compile Include="Team\GroupSummary.cs" />
+    <Compile Include="Users\Account.cs" />
+    <Compile Include="Users\AccountType.cs" />
+    <Compile Include="Users\BasicAccount.cs" />
+    <Compile Include="Users\FullAccount.cs" />
+    <Compile Include="Users\GetAccountArg.cs" />
+    <Compile Include="Users\GetAccountBatchArg.cs" />
+    <Compile Include="Users\GetAccountBatchError.cs" />
+    <Compile Include="Users\GetAccountError.cs" />
+    <Compile Include="Users\IndividualSpaceAllocation.cs" />
+    <Compile Include="Users\Name.cs" />
+    <Compile Include="Users\SpaceAllocation.cs" />
+    <Compile Include="Users\SpaceUsage.cs" />
+    <Compile Include="Users\Team.cs" />
+    <Compile Include="Users\TeamSpaceAllocation.cs" />
+    <Compile Include="Users\UsersRoutes.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="babel_summaries.xml" />
+    <None Include="app.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="namespace_summaries.xml" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
+  <Import Project="..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets" Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" />
+  <Target Name="EnsureBclBuildImported" BeforeTargets="BeforeBuild" Condition="'$(BclBuildImported)' == ''">
+    <Error Condition="!Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=317567." HelpKeyword="BCLBUILD2001" />
+    <Error Condition="Exists('..\packages\Microsoft.Bcl.Build.1.0.14\tools\Microsoft.Bcl.Build.targets')" Text="The build restored NuGet packages. Build the project again to include these packages in the build. For more information, see http://go.microsoft.com/fwlink/?LinkID=317568." HelpKeyword="BCLBUILD2002" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

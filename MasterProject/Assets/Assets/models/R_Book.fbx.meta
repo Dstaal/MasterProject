@@ -1,0 +1,198 @@
+fileFormatVersion: 2
+guid: c8cb662cfdbecfb4e8ed7ea185c233ae
+timeCreated: 1451447327
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: book
+    100002: book_Armature
+    100004: book_root
+    100006: Camera
+    100008: leftSide
+    100010: leftSide_end
+    100012: leftSide_end_end
+    100014: //RootNode
+    100016: rightSide
+    100018: rightSide_end
+    100020: rightSide_end_end
+    400000: book
+    400002: book_Armature
+    400004: book_root
+    400006: Camera
+    400008: leftSide
+    400010: leftSide_end
+    400012: leftSide_end_end
+    400014: //RootNode
+    400016: rightSide
+    400018: rightSide_end
+    400020: rightSide_end_end
+    4300000: book
+    7400000: book_Armature|R_Book_closeBook
+    7400002: book_Armature|R_book_openBook
+    9500000: //RootNode
+    13700000: book
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: book_Armature|R_Book_closeBook
+      takeName: book_Armature|R_Book_closeBook
+      firstFrame: 0
+      lastFrame: 18
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book
+        weight: 1
+      - path: book_Armature
+        weight: 1
+      - path: book_Armature/book_root
+        weight: 1
+      - path: book_Armature/book_root/leftSide
+        weight: 1
+      - path: book_Armature/book_root/leftSide/leftSide_end
+        weight: 1
+      - path: book_Armature/book_root/leftSide/leftSide_end/leftSide_end_end
+        weight: 1
+      - path: book_Armature/book_root/rightSide
+        weight: 1
+      - path: book_Armature/book_root/rightSide/rightSide_end
+        weight: 1
+      - path: book_Armature/book_root/rightSide/rightSide_end/rightSide_end_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: book_Armature|R_book_openBook
+      takeName: book_Armature|R_book_openBook
+      firstFrame: 2
+      lastFrame: 19
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: book
+        weight: 1
+      - path: book_Armature
+        weight: 1
+      - path: book_Armature/book_root
+        weight: 1
+      - path: book_Armature/book_root/leftSide
+        weight: 1
+      - path: book_Armature/book_root/leftSide/leftSide_end
+        weight: 1
+      - path: book_Armature/book_root/leftSide/leftSide_end/leftSide_end_end
+        weight: 1
+      - path: book_Armature/book_root/rightSide
+        weight: 1
+      - path: book_Armature/book_root/rightSide/rightSide_end
+        weight: 1
+      - path: book_Armature/book_root/rightSide/rightSide_end/rightSide_end_end
+        weight: 1
+      - path: Camera
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

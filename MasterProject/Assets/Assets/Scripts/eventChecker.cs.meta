@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: 6105eb1e2816bbd4c82a5ae4c1a46718
+timeCreated: 1450677551
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - gamecontroller: {instanceID: 0}
+  - hat: {instanceID: 0}
+  - moveController: {instanceID: 0}
+  - stromPrefab: {fileID: 113574, guid: 94d29cd6836cba74bbbe0757c8e64b29, type: 2}
+  - flyingHatPrefab: {fileID: 138074, guid: df372b4ba88dd4c48a119cb79edb512a, type: 2}
+  - hatSpwanTarget: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
