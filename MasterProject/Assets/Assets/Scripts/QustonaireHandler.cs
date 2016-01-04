@@ -328,7 +328,7 @@ public class QustonaireHandler : MonoBehaviour
         }
     }
 
-
+    /*
     IEnumerator SendForm()
     {
         requestWWW = new WWW(url, answersForm);
@@ -347,7 +347,7 @@ public class QustonaireHandler : MonoBehaviour
             yield return requestWWW.text;
         }
     }
-
+    */
 }
 
 
