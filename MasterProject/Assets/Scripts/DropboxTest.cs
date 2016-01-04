@@ -26,7 +26,7 @@ public class DropboxTest : MonoBehaviour
         }
     }
 
-    public void UploadFileToDropbox(string path)
+    public void UploadFileToDropbox(string path, string filename = "Results.csv")
     {
         var text = File.ReadAllText(path);
         if (string.IsNullOrEmpty(text))
@@ -39,26 +39,15 @@ public class DropboxTest : MonoBehaviour
         {
             throw new ArgumentNullException("bytes", "File at " + path + " did not give a valid bytes length after encoding");
         }
-        
-        var data = @"
-        {
-            'path': '" + path + @"',
-            'mode': 'add',
-            'autorename': true,
-            'mute': false
-        }".Trim();
+
+        var data = "{ \"path\": \"/TestResults/" + filename + "\", \"mode\":\"add\", \"autorename\":true, \"mute\":false }";
 
         var headers = new Dictionary<string, string>(3);
         headers.Add("Authorization", "Bearer ie9epjU43NcAAAAAAAATeutD8nT5PHuUU3hL7NM2QDTzZNKUpIzdUKLfF2TDErr5");
         headers.Add("Content-Type", "application/octet-stream");
         headers.Add("Dropbox-API-Arg", data);
-
-        var form = new WWWForm();
-        form.AddBinaryData("data-binary", bytes);
-
-        var www = new WWW("https://content.dropboxapi.com/2/files/upload", form.data, headers);
-        Debug.Log(this.ToString() + " making a POST to :" + www.url);
-
+        
+        var www = new WWW("https://content.dropboxapi.com/2/files/upload", bytes, headers);
         StartCoroutine(UploadFileToDropboxInternal(www));
     }
 
