@@ -1,0 +1,1096 @@
+fileFormatVersion: 2
+guid: f8352051886c8d84d922eb4d46844280
+timeCreated: 1451458156
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: back_lower_coat_bone end
+    100002: back_lower_coat_bone end_end
+    100004: back_lower_coat_bone mid
+    100006: back_lower_coat_bone start
+    100008: backpack
+    100010: backpack_bone
+    100012: backpack_center_smallBag_bone
+    100014: backpack_center_smallBag_bone_end
+    100016: backpack_Left_smallBag_bone
+    100018: backpack_Left_smallBag_bone_end
+    100020: backpack_lower_bone
+    100022: backpack_lower_bone_end
+    100024: backpack_right_smallBag_bone
+    100026: backpack_right_smallBag_bone_end
+    100028: body
+    100030: book
+    100032: book_Armature
+    100034: book_root
+    100036: bookcase
+    100038: bookcase bone
+    100040: bookcase bone_end
+    100042: Camera
+    100044: //RootNode
+    100046: eyes_target
+    100048: hat
+    100050: hat_bone
+    100052: hat_end_bone
+    100054: hat_end_bone_end
+    100056: hatSwpanPoint
+    100058: head bone
+    100060: hip
+    100062: jaw_Bone
+    100064: L_arm_ikPV
+    100066: L_arm_ikPV_end
+    100068: L_backpack_strap
+    100070: L_backpack_strap_end
+    100072: L_brow_handle
+    100074: L_brow_handle_end
+    100076: L_calical
+    100078: L_ear_bone
+    100080: L_ear_bone_end
+    100082: L_eye_target
+    100084: L_eye_target_end
+    100086: L_eyeball
+    100088: L_foot
+    100090: L_foot_control
+    100092: L_foot_ik
+    100094: L_foot_ik_control
+    100096: L_foot_ik_heel_control
+    100098: L_foot_ik_target
+    100100: L_hand
+    100102: L_hand_ik
+    100104: L_hand_ik_end
+    100106: L_index_mid
+    100108: L_index_root
+    100110: L_index_tip
+    100112: L_index_tip_end
+    100114: L_leg_ikPV
+    100116: L_leg_ikPV_end
+    100118: L_lid_bnt_handle
+    100120: L_lid_bnt_handle_end
+    100122: L_lid_top_handle
+    100124: L_lid_top_handle_end
+    100126: L_lower_arm
+    100128: L_lower_arm_ik
+    100130: L_lower_arm_ik_end
+    100132: L_lower_leg
+    100134: L_lower_leg_ik
+    100136: L_lower_leg_ik_target
+    100138: L_lower_leg_ik_target_end
+    100140: L_mushy_end
+    100142: L_mushy_end_end
+    100144: L_mushy_mid
+    100146: L_mushy_start
+    100148: L_nostril_handle
+    100150: L_nostril_handle_end
+    100152: L_pinky_mid
+    100154: L_pinky_root
+    100156: L_pinky_tip
+    100158: L_pinky_tip_end
+    100160: L_pointer_mid
+    100162: L_pointer_root
+    100164: L_pointer_tip
+    100166: L_pointer_tip_end
+    100168: L_ring_mid
+    100170: L_ring_root
+    100172: L_ring_tip
+    100174: L_ring_tip_end
+    100176: L_sleves_bone
+    100178: L_sleves_bone_end
+    100180: L_thumb_mid
+    100182: L_thumb_root
+    100184: L_thumb_tip
+    100186: L_thumb_tip_end
+    100188: L_toes
+    100190: L_toes_end
+    100192: L_toes_ik
+    100194: L_toes_ik_end
+    100196: L_toes_ik_target
+    100198: L_toes_ik_target_end
+    100200: L_toes_ik_tip_control
+    100202: L_underlay_bone
+    100204: L_underlay_bone_end
+    100206: L_upper_arm
+    100208: L_upper_arm_ik
+    100210: L_upper_arm_iK_Swicth
+    100212: L_upper_arm_iK_Swicth_end
+    100214: L_upper_leg
+    100216: L_upperleg_iK_Swicth
+    100218: L_upperleg_iK_Swicth_end
+    100220: L_uppr_leg_ik
+    100222: left_eyeball_bone
+    100224: left_iris_bone
+    100226: left_iris_bone_end
+    100228: left_lower_coat_bone end
+    100230: left_lower_coat_bone end_end
+    100232: left_lower_coat_bone mid
+    100234: left_lower_coat_bone start
+    100236: leftSide
+    100238: leftSide_end
+    100240: leftSide_end_end
+    100242: lower back
+    100244: lower_bread_end
+    100246: lower_bread_end_end
+    100248: lower_bread_start
+    100250: mage_armature
+    100252: moneyback bone
+    100254: moneyback bone_end
+    100256: moneyBag
+    100258: mought_handle
+    100260: mought_handle_end
+    100262: mouth_left_corner_handle
+    100264: mouth_left_corner_handle_end
+    100266: mouth_right_corner_handle
+    100268: mouth_right_corner_handle_end
+    100270: neak
+    100272: nose bone
+    100274: nose_handle
+    100276: R_arm_ikPV
+    100278: R_arm_ikPV_end
+    100280: R_backpack_strap
+    100282: R_backpack_strap_end
+    100284: R_borw_handle
+    100286: R_borw_handle_end
+    100288: R_calical
+    100290: R_ear_bone
+    100292: R_ear_bone_end
+    100294: R_eye_target
+    100296: R_eye_target_end
+    100298: R_eyeball
+    100300: R_foot
+    100302: R_foot_control
+    100304: R_foot_ik
+    100306: R_foot_ik_control
+    100308: R_foot_ik_heel_control
+    100310: R_foot_ik_target
+    100312: R_hand
+    100314: R_hand_ik
+    100316: R_index_mid
+    100318: R_index_root
+    100320: R_index_tip
+    100322: R_index_tip_end
+    100324: R_leg_ikPV
+    100326: R_leg_ikPV_end
+    100328: R_lid_bnt_handle
+    100330: R_lid_bnt_handle_end
+    100332: R_lid_top_handle
+    100334: R_lid_top_handle_end
+    100336: R_lower_arm
+    100338: R_lower_arm_ik
+    100340: R_lower_arm_ik_end
+    100342: R_lower_leg
+    100344: R_lower_leg_ik
+    100346: R_lower_leg_ik_target
+    100348: R_lower_leg_ik_target_end
+    100350: R_mushy_end
+    100352: R_mushy_end_end
+    100354: R_mushy_mid
+    100356: R_mushy_start
+    100358: R_nostril_handle
+    100360: R_nostril_handle_end
+    100362: R_pinky_mid
+    100364: R_pinky_root
+    100366: R_pinky_tip
+    100368: R_pinky_tip_end
+    100370: R_pointer_mid
+    100372: R_pointer_root
+    100374: R_pointer_tip
+    100376: R_pointer_tip_end
+    100378: R_ring_mid
+    100380: R_ring_root
+    100382: R_ring_tip
+    100384: R_ring_tip_end
+    100386: R_sleves_bone
+    100388: R_sleves_bone_end
+    100390: R_thumb_mid
+    100392: R_thumb_root
+    100394: R_thumb_tip
+    100396: R_thumb_tip_end
+    100398: R_toes
+    100400: R_toes_end
+    100402: R_toes_ik
+    100404: R_toes_ik_end
+    100406: R_toes_ik_target
+    100408: R_toes_ik_target_end
+    100410: R_toes_ik_tip_control
+    100412: R_underlay_bone
+    100414: R_underlay_bone_end
+    100416: R_upper_arm
+    100418: R_upper_arm_ik
+    100420: R_upper_arm_iK_Swicth
+    100422: R_upper_arm_iK_Swicth_end
+    100424: R_upper_leg
+    100426: R_upper_leg_ik_swicth
+    100428: R_upper_leg_ik_swicth_end
+    100430: R_upperLeg_iK
+    100432: right_eyeball_bone
+    100434: right_iris_bone
+    100436: right_iris_bone_end
+    100438: right_lower_coat_bone end
+    100440: right_lower_coat_bone end_end
+    100442: right_lower_coat_bone mid
+    100444: right_lower_coat_bone start
+    100446: rightSide
+    100448: rightSide_end
+    100450: rightSide_end_end
+    100452: staff
+    100454: staff bone
+    100456: staff bone_end
+    100458: teeths
+    100460: thouge mid
+    100462: thouges end
+    100464: thouges end_end
+    100466: touge_start
+    100468: upper back
+    400000: back_lower_coat_bone end
+    400002: back_lower_coat_bone end_end
+    400004: back_lower_coat_bone mid
+    400006: back_lower_coat_bone start
+    400008: backpack
+    400010: backpack_bone
+    400012: backpack_center_smallBag_bone
+    400014: backpack_center_smallBag_bone_end
+    400016: backpack_Left_smallBag_bone
+    400018: backpack_Left_smallBag_bone_end
+    400020: backpack_lower_bone
+    400022: backpack_lower_bone_end
+    400024: backpack_right_smallBag_bone
+    400026: backpack_right_smallBag_bone_end
+    400028: body
+    400030: book
+    400032: book_Armature
+    400034: book_root
+    400036: bookcase
+    400038: bookcase bone
+    400040: bookcase bone_end
+    400042: Camera
+    400044: //RootNode
+    400046: eyes_target
+    400048: hat
+    400050: hat_bone
+    400052: hat_end_bone
+    400054: hat_end_bone_end
+    400056: hatSwpanPoint
+    400058: head bone
+    400060: hip
+    400062: jaw_Bone
+    400064: L_arm_ikPV
+    400066: L_arm_ikPV_end
+    400068: L_backpack_strap
+    400070: L_backpack_strap_end
+    400072: L_brow_handle
+    400074: L_brow_handle_end
+    400076: L_calical
+    400078: L_ear_bone
+    400080: L_ear_bone_end
+    400082: L_eye_target
+    400084: L_eye_target_end
+    400086: L_eyeball
+    400088: L_foot
+    400090: L_foot_control
+    400092: L_foot_ik
+    400094: L_foot_ik_control
+    400096: L_foot_ik_heel_control
+    400098: L_foot_ik_target
+    400100: L_hand
+    400102: L_hand_ik
+    400104: L_hand_ik_end
+    400106: L_index_mid
+    400108: L_index_root
+    400110: L_index_tip
+    400112: L_index_tip_end
+    400114: L_leg_ikPV
+    400116: L_leg_ikPV_end
+    400118: L_lid_bnt_handle
+    400120: L_lid_bnt_handle_end
+    400122: L_lid_top_handle
+    400124: L_lid_top_handle_end
+    400126: L_lower_arm
+    400128: L_lower_arm_ik
+    400130: L_lower_arm_ik_end
+    400132: L_lower_leg
+    400134: L_lower_leg_ik
+    400136: L_lower_leg_ik_target
+    400138: L_lower_leg_ik_target_end
+    400140: L_mushy_end
+    400142: L_mushy_end_end
+    400144: L_mushy_mid
+    400146: L_mushy_start
+    400148: L_nostril_handle
+    400150: L_nostril_handle_end
+    400152: L_pinky_mid
+    400154: L_pinky_root
+    400156: L_pinky_tip
+    400158: L_pinky_tip_end
+    400160: L_pointer_mid
+    400162: L_pointer_root
+    400164: L_pointer_tip
+    400166: L_pointer_tip_end
+    400168: L_ring_mid
+    400170: L_ring_root
+    400172: L_ring_tip
+    400174: L_ring_tip_end
+    400176: L_sleves_bone
+    400178: L_sleves_bone_end
+    400180: L_thumb_mid
+    400182: L_thumb_root
+    400184: L_thumb_tip
+    400186: L_thumb_tip_end
+    400188: L_toes
+    400190: L_toes_end
+    400192: L_toes_ik
+    400194: L_toes_ik_end
+    400196: L_toes_ik_target
+    400198: L_toes_ik_target_end
+    400200: L_toes_ik_tip_control
+    400202: L_underlay_bone
+    400204: L_underlay_bone_end
+    400206: L_upper_arm
+    400208: L_upper_arm_ik
+    400210: L_upper_arm_iK_Swicth
+    400212: L_upper_arm_iK_Swicth_end
+    400214: L_upper_leg
+    400216: L_upperleg_iK_Swicth
+    400218: L_upperleg_iK_Swicth_end
+    400220: L_uppr_leg_ik
+    400222: left_eyeball_bone
+    400224: left_iris_bone
+    400226: left_iris_bone_end
+    400228: left_lower_coat_bone end
+    400230: left_lower_coat_bone end_end
+    400232: left_lower_coat_bone mid
+    400234: left_lower_coat_bone start
+    400236: leftSide
+    400238: leftSide_end
+    400240: leftSide_end_end
+    400242: lower back
+    400244: lower_bread_end
+    400246: lower_bread_end_end
+    400248: lower_bread_start
+    400250: mage_armature
+    400252: moneyback bone
+    400254: moneyback bone_end
+    400256: moneyBag
+    400258: mought_handle
+    400260: mought_handle_end
+    400262: mouth_left_corner_handle
+    400264: mouth_left_corner_handle_end
+    400266: mouth_right_corner_handle
+    400268: mouth_right_corner_handle_end
+    400270: neak
+    400272: nose bone
+    400274: nose_handle
+    400276: R_arm_ikPV
+    400278: R_arm_ikPV_end
+    400280: R_backpack_strap
+    400282: R_backpack_strap_end
+    400284: R_borw_handle
+    400286: R_borw_handle_end
+    400288: R_calical
+    400290: R_ear_bone
+    400292: R_ear_bone_end
+    400294: R_eye_target
+    400296: R_eye_target_end
+    400298: R_eyeball
+    400300: R_foot
+    400302: R_foot_control
+    400304: R_foot_ik
+    400306: R_foot_ik_control
+    400308: R_foot_ik_heel_control
+    400310: R_foot_ik_target
+    400312: R_hand
+    400314: R_hand_ik
+    400316: R_index_mid
+    400318: R_index_root
+    400320: R_index_tip
+    400322: R_index_tip_end
+    400324: R_leg_ikPV
+    400326: R_leg_ikPV_end
+    400328: R_lid_bnt_handle
+    400330: R_lid_bnt_handle_end
+    400332: R_lid_top_handle
+    400334: R_lid_top_handle_end
+    400336: R_lower_arm
+    400338: R_lower_arm_ik
+    400340: R_lower_arm_ik_end
+    400342: R_lower_leg
+    400344: R_lower_leg_ik
+    400346: R_lower_leg_ik_target
+    400348: R_lower_leg_ik_target_end
+    400350: R_mushy_end
+    400352: R_mushy_end_end
+    400354: R_mushy_mid
+    400356: R_mushy_start
+    400358: R_nostril_handle
+    400360: R_nostril_handle_end
+    400362: R_pinky_mid
+    400364: R_pinky_root
+    400366: R_pinky_tip
+    400368: R_pinky_tip_end
+    400370: R_pointer_mid
+    400372: R_pointer_root
+    400374: R_pointer_tip
+    400376: R_pointer_tip_end
+    400378: R_ring_mid
+    400380: R_ring_root
+    400382: R_ring_tip
+    400384: R_ring_tip_end
+    400386: R_sleves_bone
+    400388: R_sleves_bone_end
+    400390: R_thumb_mid
+    400392: R_thumb_root
+    400394: R_thumb_tip
+    400396: R_thumb_tip_end
+    400398: R_toes
+    400400: R_toes_end
+    400402: R_toes_ik
+    400404: R_toes_ik_end
+    400406: R_toes_ik_target
+    400408: R_toes_ik_target_end
+    400410: R_toes_ik_tip_control
+    400412: R_underlay_bone
+    400414: R_underlay_bone_end
+    400416: R_upper_arm
+    400418: R_upper_arm_ik
+    400420: R_upper_arm_iK_Swicth
+    400422: R_upper_arm_iK_Swicth_end
+    400424: R_upper_leg
+    400426: R_upper_leg_ik_swicth
+    400428: R_upper_leg_ik_swicth_end
+    400430: R_upperLeg_iK
+    400432: right_eyeball_bone
+    400434: right_iris_bone
+    400436: right_iris_bone_end
+    400438: right_lower_coat_bone end
+    400440: right_lower_coat_bone end_end
+    400442: right_lower_coat_bone mid
+    400444: right_lower_coat_bone start
+    400446: rightSide
+    400448: rightSide_end
+    400450: rightSide_end_end
+    400452: staff
+    400454: staff bone
+    400456: staff bone_end
+    400458: teeths
+    400460: thouge mid
+    400462: thouges end
+    400464: thouges end_end
+    400466: touge_start
+    400468: upper back
+    2300000: hatSwpanPoint
+    3300000: hatSwpanPoint
+    4300000: hatSwpanPoint
+    4300002: book
+    4300004: body
+    4300006: R_eyeball
+    4300008: staff
+    4300010: backpack
+    4300012: moneyBag
+    4300014: bookcase
+    4300016: hat
+    4300018: L_eyeball
+    4300020: teeths
+    7400000: book_Armature|R_Book_closeBook
+    7400002: book_Armature|R_book_openBook
+    7400004: mage_armature|R_backing
+    7400006: mage_armature|R_closeBook
+    7400008: mage_armature|R_eventFour
+    7400010: mage_armature|R_eventThree
+    7400012: mage_armature|R_eventTwo
+    7400014: mage_armature|R_evetOne
+    7400016: mage_armature|R_hatPickUp_test
+    7400018: mage_armature|R_idel
+    7400020: mage_armature|R_idel_lookLeftGrabHat
+    7400022: mage_armature|R_idel_lookRight
+    7400024: mage_armature|R_idel_yawn
+    7400026: mage_armature|R_idelToWalk
+    7400028: mage_armature|R_openBook
+    7400030: mage_armature|R_run
+    7400032: mage_armature|R_runToWalk
+    7400034: mage_armature|R_truning_right
+    7400036: mage_armature|R_walk
+    7400038: mage_armature|R_walkToRun
+    7400040: mage_armature|R_walkToStand
+    9500000: //RootNode
+    13700000: backpack
+    13700002: body
+    13700004: book
+    13700006: bookcase
+    13700008: hat
+    13700010: L_eyeball
+    13700012: moneyBag
+    13700014: R_eyeball
+    13700016: staff
+    13700018: teeths
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: mage_armature|R_idel
+      takeName: mage_armature|R_idel
+      firstFrame: 0
+      lastFrame: 47
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: backpack
+        weight: 1
+      - path: body
+        weight: 1
+      - path: book
+        weight: 1
+      - path: book_Armature
+        weight: 1
+      - path: book_Armature/book_root
+        weight: 1
+      - path: book_Armature/book_root/leftSide
+        weight: 1
+      - path: book_Armature/book_root/leftSide/leftSide_end
+        weight: 1
+      - path: book_Armature/book_root/leftSide/leftSide_end/leftSide_end_end
+        weight: 1
+      - path: book_Armature/book_root/rightSide
+        weight: 1
+      - path: book_Armature/book_root/rightSide/rightSide_end
+        weight: 1
+      - path: book_Armature/book_root/rightSide/rightSide_end/rightSide_end_end
+        weight: 1
+      - path: bookcase
+        weight: 1
+      - path: Camera
+        weight: 1
+      - path: hat
+        weight: 1
+      - path: hatSwpanPoint
+        weight: 1
+      - path: L_eyeball
+        weight: 1
+      - path: mage_armature
+        weight: 1
+      - path: mage_armature/eyes_target
+        weight: 1
+      - path: mage_armature/eyes_target/L_eye_target
+        weight: 1
+      - path: mage_armature/eyes_target/L_eye_target/L_eye_target_end
+        weight: 1
+      - path: mage_armature/eyes_target/R_eye_target
+        weight: 1
+      - path: mage_armature/eyes_target/R_eye_target/R_eye_target_end
+        weight: 1
+      - path: mage_armature/L_arm_ikPV
+        weight: 1
+      - path: mage_armature/L_arm_ikPV/L_arm_ikPV_end
+        weight: 1
+      - path: mage_armature/L_foot_control
+        weight: 1
+      - path: mage_armature/L_foot_control/L_leg_ikPV
+        weight: 1
+      - path: mage_armature/L_foot_control/L_leg_ikPV/L_leg_ikPV_end
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control/L_foot_ik_heel_control
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control/L_foot_ik_heel_control/L_foot_ik_control
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control/L_foot_ik_heel_control/L_foot_ik_control/L_toes_ik_target
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control/L_foot_ik_heel_control/L_foot_ik_control/L_toes_ik_target/L_toes_ik_target_end
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control/L_foot_ik_heel_control/L_foot_ik_target
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control/L_foot_ik_heel_control/L_foot_ik_target/L_lower_leg_ik_target
+        weight: 1
+      - path: mage_armature/L_foot_control/L_toes_ik_tip_control/L_foot_ik_heel_control/L_foot_ik_target/L_lower_leg_ik_target/L_lower_leg_ik_target_end
+        weight: 1
+      - path: mage_armature/L_hand_ik
+        weight: 1
+      - path: mage_armature/L_hand_ik/L_hand_ik_end
+        weight: 1
+      - path: mage_armature/lower back
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/L_backpack_strap
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/L_backpack_strap/L_backpack_strap_end
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/L_underlay_bone
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/L_underlay_bone/L_underlay_bone_end
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/R_backpack_strap
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/R_backpack_strap/R_backpack_strap_end
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/R_underlay_bone
+        weight: 1
+      - path: mage_armature/lower back/backpack_bone/R_underlay_bone/R_underlay_bone_end
+        weight: 1
+      - path: mage_armature/lower back/backpack_center_smallBag_bone
+        weight: 1
+      - path: mage_armature/lower back/backpack_center_smallBag_bone/backpack_center_smallBag_bone_end
+        weight: 1
+      - path: mage_armature/lower back/backpack_Left_smallBag_bone
+        weight: 1
+      - path: mage_armature/lower back/backpack_Left_smallBag_bone/backpack_Left_smallBag_bone_end
+        weight: 1
+      - path: mage_armature/lower back/backpack_lower_bone
+        weight: 1
+      - path: mage_armature/lower back/backpack_lower_bone/backpack_lower_bone_end
+        weight: 1
+      - path: mage_armature/lower back/backpack_right_smallBag_bone
+        weight: 1
+      - path: mage_armature/lower back/backpack_right_smallBag_bone/backpack_right_smallBag_bone_end
+        weight: 1
+      - path: mage_armature/lower back/hip
+        weight: 1
+      - path: mage_armature/lower back/hip/back_lower_coat_bone start
+        weight: 1
+      - path: mage_armature/lower back/hip/back_lower_coat_bone start/back_lower_coat_bone
+          mid
+        weight: 1
+      - path: mage_armature/lower back/hip/back_lower_coat_bone start/back_lower_coat_bone
+          mid/back_lower_coat_bone end
+        weight: 1
+      - path: mage_armature/lower back/hip/back_lower_coat_bone start/back_lower_coat_bone
+          mid/back_lower_coat_bone end/back_lower_coat_bone end_end
+        weight: 1
+      - path: mage_armature/lower back/hip/bookcase bone
+        weight: 1
+      - path: mage_armature/lower back/hip/bookcase bone/bookcase bone_end
+        weight: 1
+      - path: mage_armature/lower back/hip/L_upper_leg
+        weight: 1
+      - path: mage_armature/lower back/hip/L_upper_leg/L_lower_leg
+        weight: 1
+      - path: mage_armature/lower back/hip/L_upper_leg/L_lower_leg/L_foot
+        weight: 1
+      - path: mage_armature/lower back/hip/L_upper_leg/L_lower_leg/L_foot/L_toes
+        weight: 1
+      - path: mage_armature/lower back/hip/L_upper_leg/L_lower_leg/L_foot/L_toes/L_toes_end
+        weight: 1
+      - path: mage_armature/lower back/hip/L_uppr_leg_ik
+        weight: 1
+      - path: mage_armature/lower back/hip/L_uppr_leg_ik/L_lower_leg_ik
+        weight: 1
+      - path: mage_armature/lower back/hip/L_uppr_leg_ik/L_lower_leg_ik/L_foot_ik
+        weight: 1
+      - path: mage_armature/lower back/hip/L_uppr_leg_ik/L_lower_leg_ik/L_foot_ik/L_toes_ik
+        weight: 1
+      - path: mage_armature/lower back/hip/L_uppr_leg_ik/L_lower_leg_ik/L_foot_ik/L_toes_ik/L_toes_ik_end
+        weight: 1
+      - path: mage_armature/lower back/hip/L_uppr_leg_ik/L_upperleg_iK_Swicth
+        weight: 1
+      - path: mage_armature/lower back/hip/L_uppr_leg_ik/L_upperleg_iK_Swicth/L_upperleg_iK_Swicth_end
+        weight: 1
+      - path: mage_armature/lower back/hip/left_lower_coat_bone start
+        weight: 1
+      - path: mage_armature/lower back/hip/left_lower_coat_bone start/left_lower_coat_bone
+          mid
+        weight: 1
+      - path: mage_armature/lower back/hip/left_lower_coat_bone start/left_lower_coat_bone
+          mid/left_lower_coat_bone end
+        weight: 1
+      - path: mage_armature/lower back/hip/left_lower_coat_bone start/left_lower_coat_bone
+          mid/left_lower_coat_bone end/left_lower_coat_bone end_end
+        weight: 1
+      - path: mage_armature/lower back/hip/moneyback bone
+        weight: 1
+      - path: mage_armature/lower back/hip/moneyback bone/moneyback bone_end
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upper_leg
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upper_leg/R_lower_leg
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upper_leg/R_lower_leg/R_foot
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upper_leg/R_lower_leg/R_foot/R_toes
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upper_leg/R_lower_leg/R_foot/R_toes/R_toes_end
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upperLeg_iK
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upperLeg_iK/R_lower_leg_ik
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upperLeg_iK/R_lower_leg_ik/R_foot_ik
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upperLeg_iK/R_lower_leg_ik/R_foot_ik/R_toes_ik
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upperLeg_iK/R_lower_leg_ik/R_foot_ik/R_toes_ik/R_toes_ik_end
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upperLeg_iK/R_upper_leg_ik_swicth
+        weight: 1
+      - path: mage_armature/lower back/hip/R_upperLeg_iK/R_upper_leg_ik_swicth/R_upper_leg_ik_swicth_end
+        weight: 1
+      - path: mage_armature/lower back/hip/right_lower_coat_bone start
+        weight: 1
+      - path: mage_armature/lower back/hip/right_lower_coat_bone start/right_lower_coat_bone
+          mid
+        weight: 1
+      - path: mage_armature/lower back/hip/right_lower_coat_bone start/right_lower_coat_bone
+          mid/right_lower_coat_bone end
+        weight: 1
+      - path: mage_armature/lower back/hip/right_lower_coat_bone start/right_lower_coat_bone
+          mid/right_lower_coat_bone end/right_lower_coat_bone end_end
+        weight: 1
+      - path: mage_armature/lower back/upper back
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_index_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_index_root/L_index_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_index_root/L_index_mid/L_index_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_index_root/L_index_mid/L_index_tip/L_index_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pinky_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pinky_root/L_pinky_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pinky_root/L_pinky_mid/L_pinky_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pinky_root/L_pinky_mid/L_pinky_tip/L_pinky_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pointer_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pointer_root/L_pointer_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pointer_root/L_pointer_mid/L_pointer_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_pointer_root/L_pointer_mid/L_pointer_tip/L_pointer_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_ring_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_ring_root/L_ring_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_ring_root/L_ring_mid/L_ring_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_ring_root/L_ring_mid/L_ring_tip/L_ring_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_thumb_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_thumb_root/L_thumb_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_thumb_root/L_thumb_mid/L_thumb_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_lower_arm/L_hand/L_thumb_root/L_thumb_mid/L_thumb_tip/L_thumb_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_sleves_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm/L_sleves_bone/L_sleves_bone_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm_ik
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm_ik/L_lower_arm_ik
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm_ik/L_lower_arm_ik/L_lower_arm_ik_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm_ik/L_upper_arm_iK_Swicth
+        weight: 1
+      - path: mage_armature/lower back/upper back/L_calical/L_upper_arm_ik/L_upper_arm_iK_Swicth/L_upper_arm_iK_Swicth_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/hat_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/hat_bone/hat_end_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/hat_bone/hat_end_bone/hat_end_bone_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone/lower_bread_start
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone/lower_bread_start/lower_bread_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone/lower_bread_start/lower_bread_end/lower_bread_end_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone/touge_start
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone/touge_start/thouge
+          mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone/touge_start/thouge
+          mid/thouges end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/jaw_Bone/touge_start/thouge
+          mid/thouges end/thouges end_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_brow_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_brow_handle/L_brow_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_ear_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_ear_bone/L_ear_bone_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_lid_bnt_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_lid_bnt_handle/L_lid_bnt_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_lid_top_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_lid_top_handle/L_lid_top_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_mushy_start
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_mushy_start/L_mushy_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_mushy_start/L_mushy_mid/L_mushy_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/L_mushy_start/L_mushy_mid/L_mushy_end/L_mushy_end_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/left_eyeball_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/left_eyeball_bone/left_iris_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/left_eyeball_bone/left_iris_bone/left_iris_bone_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/mought_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/mought_handle/mought_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/mouth_left_corner_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/mouth_left_corner_handle/mouth_left_corner_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/mouth_right_corner_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/mouth_right_corner_handle/mouth_right_corner_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/nose bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/nose bone/nose_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/nose bone/nose_handle/L_nostril_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/nose bone/nose_handle/L_nostril_handle/L_nostril_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/nose bone/nose_handle/R_nostril_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/nose bone/nose_handle/R_nostril_handle/R_nostril_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_borw_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_borw_handle/R_borw_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_ear_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_ear_bone/R_ear_bone_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_lid_bnt_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_lid_bnt_handle/R_lid_bnt_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_lid_top_handle
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_lid_top_handle/R_lid_top_handle_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_mushy_start
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_mushy_start/R_mushy_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_mushy_start/R_mushy_mid/R_mushy_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/R_mushy_start/R_mushy_mid/R_mushy_end/R_mushy_end_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/right_eyeball_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/right_eyeball_bone/right_iris_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/neak/head bone/right_eyeball_bone/right_iris_bone/right_iris_bone_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_index_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_index_root/R_index_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_index_root/R_index_mid/R_index_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_index_root/R_index_mid/R_index_tip/R_index_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pinky_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pinky_root/R_pinky_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pinky_root/R_pinky_mid/R_pinky_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pinky_root/R_pinky_mid/R_pinky_tip/R_pinky_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pointer_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pointer_root/R_pointer_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pointer_root/R_pointer_mid/R_pointer_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_pointer_root/R_pointer_mid/R_pointer_tip/R_pointer_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_ring_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_ring_root/R_ring_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_ring_root/R_ring_mid/R_ring_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_ring_root/R_ring_mid/R_ring_tip/R_ring_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_thumb_root
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_thumb_root/R_thumb_mid
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_thumb_root/R_thumb_mid/R_thumb_tip
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_lower_arm/R_hand/R_thumb_root/R_thumb_mid/R_thumb_tip/R_thumb_tip_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_sleves_bone
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm/R_sleves_bone/R_sleves_bone_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm_ik
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm_ik/R_lower_arm_ik
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm_ik/R_lower_arm_ik/R_lower_arm_ik_end
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm_ik/R_upper_arm_iK_Swicth
+        weight: 1
+      - path: mage_armature/lower back/upper back/R_calical/R_upper_arm_ik/R_upper_arm_iK_Swicth/R_upper_arm_iK_Swicth_end
+        weight: 1
+      - path: mage_armature/R_arm_ikPV
+        weight: 1
+      - path: mage_armature/R_arm_ikPV/R_arm_ikPV_end
+        weight: 1
+      - path: mage_armature/R_foot_control
+        weight: 1
+      - path: mage_armature/R_foot_control/R_leg_ikPV
+        weight: 1
+      - path: mage_armature/R_foot_control/R_leg_ikPV/R_leg_ikPV_end
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control/R_foot_ik_heel_control
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control/R_foot_ik_heel_control/R_foot_ik_control
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control/R_foot_ik_heel_control/R_foot_ik_control/R_toes_ik_target
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control/R_foot_ik_heel_control/R_foot_ik_control/R_toes_ik_target/R_toes_ik_target_end
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control/R_foot_ik_heel_control/R_foot_ik_target
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control/R_foot_ik_heel_control/R_foot_ik_target/R_lower_leg_ik_target
+        weight: 1
+      - path: mage_armature/R_foot_control/R_toes_ik_tip_control/R_foot_ik_heel_control/R_foot_ik_target/R_lower_leg_ik_target/R_lower_leg_ik_target_end
+        weight: 1
+      - path: mage_armature/R_hand_ik
+        weight: 1
+      - path: mage_armature/R_hand_ik/staff bone
+        weight: 1
+      - path: mage_armature/R_hand_ik/staff bone/staff bone_end
+        weight: 1
+      - path: moneyBag
+        weight: 1
+      - path: R_eyeball
+        weight: 1
+      - path: staff
+        weight: 1
+      - path: teeths
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
