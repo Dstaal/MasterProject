@@ -14,3 +14,5 @@
 /*.DotSettings
 /*.shfbproj_*
 /**/*.ttout*
+*.csproj
+*.sln
